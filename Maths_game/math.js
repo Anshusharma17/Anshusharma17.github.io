@@ -8,7 +8,7 @@ document.getElementById('start').onclick=function(){
         location.reload();
     }
     else{
-        time=5;
+        time=60;
         document.getElementById('time').style.display="block";
         document.getElementById("start").innerHTML="Reset Game";
         document.getElementById('gameover').style.display="none";                                    
